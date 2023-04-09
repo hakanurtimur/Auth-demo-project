@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"Hakan","image":"https://test","date":"2023-05-05","description":"dsadasdaewqewqewq","id":"924c1cab-b0db-4103-bc65-aff2c7f62281"}],"users":[{"email":"dsada@dsad.com","password":"$2a$12$20G0XxYBYrW5hMK6WtarMeStBficB8ka2G6GTwoR9MMLAC.q9GEkS","id":"b7458b25-8bcd-4571-a2dc-83de72a56f21"},{"email":"test@test.com","password":"$2a$12$CdIsTsXw1d.khKsjn9yFn.0EUal4DFLPaNJ9foaEtiBlE/WWiRMN6","id":"ee25dc3b-f26d-44b7-a654-3fb144863a9c"},{"email":"dsadadsqwewqe@sdadmsadsa","password":"$2a$12$a0hrSzDf3V0eeV67g4t5L.Jy2E/kpTZ8yJicqgky.7AZ4Ky8yaFXW","id":"abc26b17-ced1-4c2e-9150-a58b2b381b17"},{"email":"test3@test.com","password":"$2a$12$5rCPeDBF1AKbXOkXil5cxeJmDVOPEw9GN8aio/HSqjc.J/m5bWl0e","id":"9aa8fc1e-d24b-43d6-9e6e-11b91c0f698d"},{"email":"dsadsadsa@sdadsada","password":"$2a$12$2tpBVLqYwDdeHJrkw11hfu1o01BMU8ipuEHtarahgN.kBc9HDRaJO","id":"2a1ef560-f987-438c-a691-7d9c6d9cdeb1"},{"email":"hakanrtmr@icloud.com","password":"$2a$12$DjrK6RQ.GLxEDIW4FenxBO4yvftVXxTsNuso2Ln7VxkvhXlSzSCvC","id":"dc42062a-b7fd-44bf-a9b0-e7fda2ceb77b"},{"email":"hakan@hakan.com","password":"$2a$12$WsdBnpNVj6c81CQkNkZtP.gZjgkcYuJfiGCbVqkBVS8pK/xCB5R8q","id":"c23124f8-b52b-4a43-b522-6bbd66a8a739"},{"email":"dythakanurtimur@gmail.com","password":"$2a$12$XHDukM65jOMTdiix9ga8kudloIZV70RS5crdOwAsoxsc3ud0Yss2.","id":"92cc06ac-2071-499b-a91f-74e1c4550d3c"},{"email":"berre@berre.com","password":"$2a$12$61.8LuOpVdGJi30qEVGOTOlDMavvzLUK3AOPJzqN2npIddVTAGiNq","id":"a5044215-f8ba-4057-b8b4-558a9db6ffe0"},{"email":"hakan@det.com","password":"$2a$12$JWAl3nja5GzRPoxFVl4EQeqDl.GXAZB1kT7irmsNHwJ0lF1aGcTzC","id":"123f9201-34e6-4ac4-99c0-b66068024194"}]}
