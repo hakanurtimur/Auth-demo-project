@@ -15,8 +15,14 @@ import { action as manipulateEventAction } from './components/EventForm';
 import NewsletterPage, { action as newsletterAction } from './pages/Newsletter';
 import AuthenticationPage, { action as authAction } from './pages/Authentication';
 import {action as logoutAction } from './pages/Logout'
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+>>>>>>> 1ff1a54c5fb488ba17e88cf6245728446ab8e02c
 import { tokenLoader } from './utilize/auth';
+=======
+>>>>>>> 38196f43d8fffa2094b3580e5371fe2a92d46132
 
 
 
