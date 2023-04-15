@@ -1,11 +1,10 @@
-import { redirect } from "react-router-dom";
+import { redirect } from "react-router-dom"
 
 
-export function action () {
+export const action = async() => {
 
 
-    localStorage.removeItem('token');
 
+    localStorage.removeItem('token')
     return redirect('/')
 }
-

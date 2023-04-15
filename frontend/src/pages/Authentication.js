@@ -7,27 +7,18 @@ function AuthenticationPage() {
 
 export default AuthenticationPage;
 
-export async function action({ request }) {
-
-  const searchParams = new URL(request.url).searchParams
-
-  console.log(searchParams)
-  const mode = searchParams.get('mode')
-  console.log(mode)
-
+export const action = async ({ request }) => {
+  const searchParams = new URL(request.url).searchParams;
+  const mode = searchParams.get("mode") || "login";
   
-
-  if (mode !== "signup" && mode !== "login") {
-    throw json({ message: "Unsupported mode!" }, { status: 422 });
-  }
-
+    if (mode !== "signup" && mode !== "login") {
+      throw json({ message: "Unsupported mode" }, { status: 422 });
+    }
   const data = await request.formData();
   const authData = {
     email: data.get("email"),
     password: data.get("password"),
   };
-
-  
 
   console.log(authData)
   const response = await fetch("http://localhost:8080/" + mode, {
@@ -39,11 +30,12 @@ export async function action({ request }) {
   });
 
   console.log(response)
+
   if (response.status === 422 || response.status === 401) {
     return response;
   }
   if (!response.ok) {
-    throw json({ message: "Could not authenticate user!" }, { status: 500 });
+    throw json({message:'Could not authenticate user!'}, {status: 500})
   }
 
   const resData = await response.json();
@@ -52,5 +44,11 @@ export async function action({ request }) {
 
   localStorage.setItem('token', token)
 
+  const expiration = new Date();
+  expiration.setHours(expiration.getHours() + 1);
+
+  localStorage.setItem('expiration', expiration.toISOString())
+
+
   return redirect("/");
-}
+};
